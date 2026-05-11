@@ -24,14 +24,59 @@
   color: rgb(212, 184, 184);
 }
 
+
 .App-link {
   color: #61dafb;
   
 }
 
+.signup-page{
+  min-height: 100vh;
+  background-color: rgba(172, 157, 157, 0.233);
+}
+
+.signin-page{
+  min-height: 100vh;
+  background-color: rgba(172, 157, 157, 0.233);;
+}
+
+.rentals-page{
+  min-height: 100vh;
+  background-color: rgba(172, 157, 157, 0.233);
+}
 
 
 
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  z-index: 10;
+  text-decoration: solid;
+
+  border-radius: 10px;
+}
+
+.overlay-p{
+   position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  z-index: 10;
+  text-decoration: solid;
+
+  border-radius: 10px;
+
+}
 
 
 @keyframes App-logo-spin {
